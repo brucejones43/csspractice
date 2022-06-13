@@ -1,19 +1,18 @@
-/* text manipulation*/ 
+/* font manipulation*/ 
 body{
     background: linear-gradient(to bottom, rgba(255, 238, 0,.6), rgba(255, 255, 255, 0)); 
-    text-transform: capitalize;
-    text-align: justify;
+    font-size: 1.25em;
+
 }
 #title{
     color: rgba(0, 0, 0, 0.314);
+    font-weight: 400;
 
 }
 
 .subtitle{
     color: rgba(329, 168, 50, .5);
 }
-
-.link{
-    text-decoration: underline;
-
+.italic{
+    font-style: oblique;
 }
