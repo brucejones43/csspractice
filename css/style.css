@@ -1,27 +1,19 @@
-/* HowToBlocks
-    selector {
-    property: value;
-    property2: value;
-} */
-/* Color types
-
-
-*/ 
+/* text manipulation*/ 
 body{
     background: linear-gradient(to bottom, rgba(255, 238, 0,.6), rgba(255, 255, 255, 0)); 
-    font-size:  2em;
+    text-transform: capitalize;
+    text-align: justify;
 }
 #title{
     color: rgba(0, 0, 0, 0.314);
+
 }
 
 .subtitle{
     color: rgba(329, 168, 50, .5);
 }
 
-#service-image{
-    height: 100vh;
-    width: 100vw;
+.link{
+    text-decoration: underline;
 
-    background:  linear-gradient(to bottom, rgb(255, 0, 0), rgb(11, 92, 255));
 }
