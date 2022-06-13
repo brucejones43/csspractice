@@ -1,41 +1,27 @@
-h2:hover{
-    color: red;
-}
-h2[class=subtitle]{
-    color: aqua;
-}
-
-td:nth-child(2n-1){
-    color: steelblue;
-}
-/* #google-link:link{
-    color: blue;
-}
-#google-link:visited{
-    color: purple;
+/* HowToBlocks
+    selector {
+    property: value;
+    property2: value;
 } */
-h2 + a {  
-    color: gray;
-}
+/* Color types
+
+
+*/ 
 body{
-    background-color: blanchedalmond;
+    background: rgb(102, 102, 102);
+}
+#title{
+    color: rgba(0, 0, 0, 0.314);
 }
 
-textarea ~ button{
-    color: purple;
+.subtitle{
+    color: rgba(329, 168, 50, .5);
 }
 
-ul > li{
-    color: peru;
-}
-ul li{
-    color: brown;
-}
+#service-image{
+    height: 400px;
+    width: 70%;
 
-img[src^="../img"] { 
-    border: 10px solid #000; 
+    background: url(https://images.pexels.com/photos/360912/pexels-photo-360912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: contain;
 }
-
-h2[class~=article-subtitle]{
-    background-color: goldenrod;
-} 
