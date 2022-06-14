@@ -1,18 +1,18 @@
-/* font manipulation*/ 
+/* fonts from url*/ 
 body{
     background: linear-gradient(to bottom, rgba(255, 238, 0,.6), rgba(255, 255, 255, 0)); 
     font-size: 1.25em;
-
+    font-family: "Lato", sans-serif;
 }
 #title{
-    color: rgba(0, 0, 0, 0.314);
-    font-weight: 400;
-
+    color: rgba(0, 0, 0, 0.314);    
+    font-family: "Sarabun", sans-serif;
 }
 
 .subtitle{
     color: rgba(329, 168, 50, .5);
+    font-family: "Sarabun", sans-serif;
 }
 .italic{
     font-style: oblique;
-}
+} 
