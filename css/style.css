@@ -1,4 +1,4 @@
-/* fonts from url*/ 
+/*Box Model*/ 
 body{
     background: linear-gradient(to bottom, rgba(255, 238, 0,.6), rgba(255, 255, 255, 0)); 
     font-size: 1.25em;
@@ -9,6 +9,14 @@ body{
     font-family: "Sarabun", sans-serif;
 }
 
+#service-image{
+    height: 400px;
+    width: 40%;
+    background: rgba(106, 176, 45, 0.305);
+    border: 2px dashed black;
+    
+}
+
 .subtitle{
     color: rgba(329, 168, 50, .5);
     font-family: "Sarabun", sans-serif;
@@ -16,3 +24,7 @@ body{
 .italic{
     font-style: oblique;
 } 
+#about-me-image{
+height: 300p;
+width: 60vw;
+}
